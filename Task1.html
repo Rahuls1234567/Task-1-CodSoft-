@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Registration</title>
+    <link rel="stylesheet" href="Task1.css">
+</head>
+<body>
+    <header>
+        <h1>Football Registration</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#achive">Achivements</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <h2>Join Our Football Team</h2>
+        <p>Get ready to play, train, and compete with the best.</p>
+        <button onclick="document.getElementById('register').scrollIntoView();">Register Now</button>
+    </section>
+
+    
+    <section id="about">
+        <h2>About Our Team</h2>
+        <h3>FC Barcelona</h3>
+        <p>Founded in 1899 by a group of Swiss, Catalan, German, and English footballers led by Joan Gamper, the club has become a symbol of Catalan culture and Catalanism, hence the motto "Més que un club" ("More than a club").[2] Unlike many other football clubs, the supporters own and operate Barcelona. It is the third-most valuable football club in the world, worth $5.51 billion, and the world's fourth richest football club in terms of revenue, with an annual turnover of €800.1 million.[3][4] The official Barcelona anthem is the "Cant del Barça", written by Jaume Picas and Josep Maria Espinàs.[5] Barcelona traditionally play in dark shades of blue and garnet stripes, hence nicknamed Blaugrana.</p><br>
+        <p>Domestically, Barcelona has won a record 77 trophies: 27 La Liga, 31 Copa del Rey, 14 Supercopa de España, three Copa Eva Duarte, and two Copa de la Liga titles, as well as being the record holder for the latter four competitions. In international club football, the club has won 22 European and worldwide titles: five UEFA Champions League titles, a record four UEFA Cup Winners' Cups, a joint record five UEFA Super Cups, a record three Inter-Cities Fairs Cups, a joint record two Latin Cups, and three FIFA Club World Cups.[6][7][8] Barcelona was ranked first in the International Federation of Football History & Statistics Club World Ranking for 1997, 2009, 2011, 2012, and 2015, and occupies the ninth position on the UEFA club rankings as of May 2023.[9][10][11] The club has a long-standing rivalry with Real Madrid, and matches between the two teams are referred to as El Clásico.</p>
+        <p>We are committed to nurturing talent and promoting football. Join us for an exciting journey.</p>
+
+    </section>
+    <section id="achive">
+<h2>Achivements</h2>
+<div class="image-container">
+<img src="image/tropys.jpg" alt=""  class="fit-image">
+</div>
+    </section>
+
+   
+    <section id="register">
+        <h2>Register</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+            <label for="position">Preferred Position:</label>
+            <select id="position" name="position" required>
+                <option value="forward">Forward</option>
+                <option value="midfielder">Midfielder</option>
+                <option value="defender">Defender</option>
+                <option value="goalkeeper">Goalkeeper</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+   
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: fcbarca@123.com</p>
+        <p>Phone: +999 6868 454</p>
+    </section>
+
+  
+    <footer>
+        <p>&copy; FC Barcelona Team. All rights reserved.</p>
+    </footer>
+</body>
+</html>
